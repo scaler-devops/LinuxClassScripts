@@ -31,30 +31,37 @@ Section 1 — Login to Linux & Knowing Where You Are
 
 You want to know which user you are logged in as, do you know how to figure that out? Can you create a new user and try to change the password for the sudo user and the new user created?
 
+“I want to check which user is currently logged in — how do I do that?”
 
+- whoami	
 
-Commands:
+“I want to switch to the root user temporarily — which command should I use?”
 
+- sudo su	
 
-whoami
+“How do I switch to another user’s account with their full environment?”
 
-sudo su
+- su - user	
 
-su - user 
+“How do I change my current user’s password?”
 
-passwd 
+- passwd	
 
-pwd
+“I’m lost. How can I check which directory I’m currently in?”
 
-ls
+- pwd	
 
-ls -l
+“How do I see all the files and folders in my current directory?”
 
-ls -a
+- ls	
 
+“How do I list files with details like permissions, size, and timestamp?”
 
+- ls -l	
 
+“Some files are hidden. How do I list every file, including hidden ones?”
 
+- ls -a	
 
 Explanation:
 
